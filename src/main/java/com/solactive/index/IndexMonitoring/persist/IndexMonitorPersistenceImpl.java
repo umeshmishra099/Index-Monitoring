@@ -41,4 +41,8 @@ public class IndexMonitorPersistenceImpl implements IndexMonitorPersistence
             .collect(Collectors.toList());
   }
 
+  protected void clearTrick()
+  {
+    allTricks.clear();
+  }
 }
